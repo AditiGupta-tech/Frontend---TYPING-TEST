@@ -1,0 +1,179 @@
+body {
+   background-image: linear-gradient(lavender, beige);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 5000px;
+    margin-bottom: 1px;
+    border: 2px solid;
+    border-width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.container {
+    margin-top: 30px;
+     margin-left: 25px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.paras {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#ideal {
+    font-size: 18px;
+}
+
+#good {
+    font-size: 25px;
+    color: green
+}
+
+#typing-text {
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block center;
+    align-items: center;
+}
+
+#quote {
+    text-align: justify;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 50%;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+#input-box {
+   height: 80%;
+    height: 70px;
+    width: 90%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10%;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#input-box, #restart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 4px solid rgb(173, 173, 236);
+    border-radius: 20px;
+}
+
+button:hover {
+    font-style:oblique;
+    color: black;
+    background-color: rgb(47, 47, 247);
+    font-weight: 50px;
+}
+
+.correct {
+    border-color: green;
+}
+
+.incorrect {
+    border-color: red;
+}
+
+.results {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon {
+    width: 30px; /* Set icon size */
+    height: 30px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2); 
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(222, 227, 227);
+}
+#p2 {
+    font-size: 30px;
+}
+
+.icon {
+    width: 80px; /* Set icon size */
+    height: 80px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon:hover {
+    transform: scale(0.5); 
+}
+
+#me {
+    width: 400px;
+    height: 500px;
+    margin-top: 1px;
+}
+
+#p_me {
+    font-size: 25px;
+    margin-bottom: 1px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+

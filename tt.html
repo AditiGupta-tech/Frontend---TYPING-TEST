@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="tt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Typing Speed Tester</h1>
+        <p id="p1">Test and improve your typing speed by taking this simple and fun test!</p>
+
+        <div class="guide">
+            <h3><strong>Guide:</strong></h3>
+            <p class="paras">1. A sentence will be generated above the box.</p>
+            <p class="paras">2. Type that in the provided textarea.</p>
+            <p class="paras">3. The site will automatically calculate your words per minute (WPM), accuracy, and speed.</p>
+            <p class="paras">4. Click on the restart button to generate a new sentence.</p>
+       </div>
+
+       <div id="ideal">
+            <h3><strong>Ideal typing speed:</strong></h3>
+         <p id="p_ideal">The ideal typing speed (WPM - Words Per Minute) varies depending on the context: <p>
+             <p class="content">   (i) Beginner: 20-40 WPM <br>
+                (ii) Average typist: 40-60 WPM (Most people fall in this range) <br> 
+                (iii)Good speed: 60-80 WPM (Fast typists) <br>
+                (iv)Professional typist: 80-100+ WPM <br>
+               (v)World-class typist: 120+ WPM (Very rare, only professionals) </p>
+                   
+              <p>For Specific Use Cases: </p>
+           <p class="content"> (i)  Casual typing (students, office work): 40-60 WPM <br>
+            (ii) Programmers & Developers: 50-80 WPM (Efficiency matters more than speed) <br>
+            (iii)  Data entry jobs: 60-80+ WPM <br>
+            (iv) Transcriptionists & Court Reporters: 80-120+ WPM </p>    
+                
+              <p id="good"><b>A good target for everyday tasks is 60+ WPM with at least 95% accuracy. </b></p>
+        </div>
+
+        <h2 id="typing-text">HAPPY TYPING!</h2>
+
+        <p id="quote">Loading...</p> <!-- Sentence to type -->
+        <textarea id="input-box" placeholder="Start typing here..."></textarea>
+        <br>
+        <button id="restart-btn">Restart</button>
+
+        <div class="results">
+            <p><b>WPM: <span id="wpm">0</span></b></p>
+            <p><b>Accuracy: <span id="accuracy">100</span>%</b></p>
+            <p><b>Time: <span id="time">0</span> sec</b></p>
+        </div>
+    </div>
+
+    <footer>
+        <p  id="p2">Do connect and drop your feedbacks:</p>
+        <p id="p_me">Aditi Gupta (IGDTUW, CSE'2028)</p>
+        <a href="https://www.linkedin.com/feed/" target="_blank">  
+            <img src="icons/WhatsApp Image 2025-03-24 at 1.44.19 AM.jpeg" id="me" class="icon"> <br>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="icons/linkedin.png" alt="LinkedIn" class="icon">
+        </a> 
+        <a href="https://github.com/AditiGupta-tech" target="_blank">
+            <img src="icons/github.png" alt="GitHub" class="icon">
+        </a> 
+        <a href="mailto:aditig135@gmail.com">
+            <img src="icons/communication.png" alt="Email" class="icon">
+        </a>
+        <a href="https://www.instagram.com/kabhikabhi_adiiti/" target="_blank">
+            <img src="icons/instagram.png" alt="Instagram" class="icon">
+        </a> 
+        <a href="tel:+917011551721">
+            <img src="icons/phone-call.png" alt="Phone" class="icon">
+        </a>
+    </footer>
+
+    <script src="tt.js"></script>
+</body>
+</html>
